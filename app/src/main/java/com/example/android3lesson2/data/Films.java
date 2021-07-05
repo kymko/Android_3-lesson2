@@ -17,6 +17,10 @@ public class Films {
     @SerializedName("description")
     private String description;
 
+    public Films(String title){
+        this.title = title;
+    }
+
     public Films(String id, String title, String originalTitle, String description) {
         this.id = id;
         this.title = title;
